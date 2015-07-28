@@ -1,0 +1,26 @@
+{
+  "name": "tiggsbot",
+  "version": "1.0.0",
+  "description": "A custom IRC bot with Twitch support",
+  "main": "lib/index.js",
+  "dependencies": {
+    "irc": "^0.3.12",
+    "restify": "^3.0.3",
+    "request": "",
+    "wordpos": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tiggs/tiggsBot/"
+  },
+  "keywords": [
+    "irc",
+    "bot"
+  ],
+  "author": "David Kim",
+  "license": "ISC"
+}
