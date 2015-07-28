@@ -1,8 +1,5 @@
 # tiggsBot
 
-TiggsBot
-==============
-
 A NodeJS IRC bot that implements [Node-IRC](https://github.com/martynsmith/node-irc). Contains several customized features for personal use. 
 
 ## Features
