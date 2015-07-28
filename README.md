@@ -7,6 +7,7 @@ A NodeJS IRC bot that implements [Node-IRC](https://github.com/martynsmith/node-
 + Annoying Word Replacement - Randomly replaces nouns with key words and repeats it back at users, defaults to the word 'butt'. Uses [WordPos](https://github.com/moos/wordpos) for grammar detection.
 
 `2:31 AM <•tiggs> The quick brown fox jumps over the lazy dog`
+
 `2:31 AM <tiggsbot> tiggs: The quick brown butt jumps over the lazy dog`
 
 + Moonkin Module - Based on the World of Warcraft addon [Tongues](http://www.curse.com/addons/wow/tongues), implements the Moonkin module replacing text with Moonkin speak.
