@@ -13,6 +13,9 @@ A NodeJS IRC bot that implements [Node-IRC](https://github.com/martynsmith/node-
 + Moonkin Module - Based on the World of Warcraft addon [Tongues](http://www.curse.com/addons/wow/tongues), implements the Moonkin module replacing text with Moonkin speak.
 
 
+## Running:
+Clone out the repo, let NPM take care of the necessary packages. Edit lib/tiggsbot.js for server parameters and options, edit lib/twitch.js for streamer options. Run with 'node server'. 
+
 ## Todo:
 + Add multiple streamer support to monitor
 + Link saving: Store images and URLs posted to be able to recall later
