@@ -7,9 +7,22 @@ var Twitch = new require('./lib/twitch'),
     twitch = new Twitch();
 
 
-tiggsbot.connect();
+var mode = 'test';
 
+if (mode == 'dev') {
+    tiggsbot.parseMessage("tiggs", "tiggsbot: test");
+    tiggsbot.parseMessage("tiggs", "tiggsbot: help");
+    while (1) {
 
+    }
+} else {
+    if (!tiggsbot.isActive) {
+        console.log('connecting to irc!');
+        tiggsbot.connect();
+    }
+}
+
+/*
 server.use(restify.queryParser());
 
 server.get('/', function (req, res, cb) {
@@ -47,7 +60,8 @@ server.get('/test', function (req, res, cb) {
 server.listen(process.env.PORT || 5000, function () { 
     console.log('%s listening at %s', server.name, server.url);
 });
+*/
 
-server.get(/\/js|css|images\/?.*/, restify.serveStatic({
-    directory: './assets'
-}));
+//server.get(/\/js|css|images\/?.*/, restify.serveStatic({
+//    directory: './assets'
+//}));
